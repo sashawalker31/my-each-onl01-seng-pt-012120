@@ -8,5 +8,5 @@ return array
 end
 array = [1,2,3]
 my_each(array) do |x|
-  puts x
+  return x
 end
